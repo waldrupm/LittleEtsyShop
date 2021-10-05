@@ -1,4 +1,6 @@
 namespace :csv_load do
+  require 'csv'
+
   desc 'Loads Customer data from csvs in db data folder to activerecord'
   task customers: :environment do
   end
