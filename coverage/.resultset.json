@@ -75,11 +75,14 @@
           null,
           1,
           1,
+          2,
+          null,
           null
         ]
       },
       "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/models/merchant.rb": {
         "lines": [
+          1,
           1,
           null
         ]
@@ -101,6 +104,6 @@
         ]
       }
     },
-    "timestamp": 1633463540
+    "timestamp": 1633464057
   }
 }
