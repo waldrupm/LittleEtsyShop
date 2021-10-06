@@ -7,8 +7,9 @@
           null
         ]
       },
-      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/models/customer.rb": {
+      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/models/merchant.rb": {
         "lines": [
+          1,
           1,
           null
         ]
@@ -20,90 +21,22 @@
           null
         ]
       },
-      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/spec/models/invoice_item_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/models/invoice_item.rb": {
+      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/controllers/merchants_controller.rb": {
         "lines": [
           1,
           1,
           1,
-          null
-        ]
-      },
-      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/spec/models/invoice_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/models/invoice.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/spec/models/item_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/models/item.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/spec/models/merchant_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
           null,
           null
         ]
       },
-      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/models/merchant.rb": {
+      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/controllers/application_controller.rb": {
         "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/spec/models/transaction_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/models/transaction.rb": {
-        "lines": [
-          1,
           1,
           null
         ]
       }
     },
-    "timestamp": 1633464057
+    "timestamp": 1633551172
   }
 }
