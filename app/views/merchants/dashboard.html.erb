@@ -3,6 +3,11 @@
 	<%= link_to "My Items", "/merchants/#{@merchant.id}/items" %>
 	<%= link_to "My Invoices", "/merchants/#{@merchant.id}/invoices" %>
 </nav>
-<section>
-
+<section id="favoriteCustomers">
+	<h3>Favorite Customers</h3>
+	<ol>
+		<% @top_5_customers.each do |customer| %>
+			<li><%= customer.full_name %> - <%= customer.num_trans %> purchases</li>
+		<% end %>
+	</ol>
 </section>

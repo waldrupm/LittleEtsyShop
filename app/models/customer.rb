@@ -13,4 +13,8 @@ class Customer < ApplicationRecord
       .order('num_trans desc')
       .limit(5)
   end
+
+  def full_name
+    first_name.concat(' ', last_name)
+  end
 end

@@ -93,10 +93,12 @@ describe 'Merchant dashboard' do
 
     visit "/merchants/#{@merchant.id}/dashboard"
 
-    expect(page).to have_content('Joey Ondricka')
-    expect(page).to have_content('Yaho Yoo')
-    expect(page).to have_content('Andrew Brae')
-    expect(page).to have_content('Blers Moushca')
-    expect(page).to have_content('Sjarn Max')
+    within('#favoriteCustomers') do
+      expect(page).to have_content('Joey Ondricka')
+      expect(page).to have_content('Yaho Yoo')
+      expect(page).to have_content('Andrew Brae')
+      expect(page).to have_content('Blers Moushca')
+      expect(page).to have_content('Sjarn Max')
+    end
   end
 end
