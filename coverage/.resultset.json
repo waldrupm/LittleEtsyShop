@@ -11,6 +11,12 @@
         "lines": [
           1,
           1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
           null
         ]
       },
@@ -21,11 +27,70 @@
           null
         ]
       },
+      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/models/item.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/models/customer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/models/invoice.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/models/invoice_item.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
       "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/controllers/merchants_controller.rb": {
         "lines": [
           1,
           1,
-          2,
+          3,
           null,
           null
         ]
@@ -35,8 +100,18 @@
           1,
           null
         ]
+      },
+      "/home/wally/code/turingSchool/module2/projects/LittleEtsyShop/app/models/transaction.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1633551801
+    "timestamp": 1633644263
   }
 }
