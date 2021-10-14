@@ -3,7 +3,7 @@ require 'rails_helper'
 describe 'Merchant dashboard' do
   before :each do
     @merchant = Merchant.create!(name: 'Sally Handmade')
-    @item = @merchant.items.create!(name: 'Qui Essie', description: 'Lorem ipsim', unit_price: 75_107)
+    @item = @merchant.items.create!(name: 'Qui Varnum', description: 'Lorem ipsim', unit_price: 75_107)
     @item_2 = @merchant.items.create!(name: 'Essie', description: 'Lorem ipsim', unit_price: 75_107)
     @item_3 = @merchant.items.create!(name: 'Glowfish Markdown', description: 'Lorem ipsim', unit_price: 55_542)
     @customer = Customer.create!(first_name: 'Joey', last_name: 'Ondricka')
@@ -100,5 +100,13 @@ describe 'Merchant dashboard' do
       expect(page).to have_content('Blers Moushca')
       expect(page).to have_content('Sjarn Max')
     end
+  end
+
+  it 'shows items ready to be shipped' do
+    visit "/merchants/#{@merchant.id}/dashboard"
+
+    expect(page).to have_content('Qui Varnum')
+    expect(page).to have_content('Essie')
+    expect(page).to_not have_content('Glowfish')
   end
 end

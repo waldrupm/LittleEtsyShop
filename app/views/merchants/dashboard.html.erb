@@ -11,3 +11,10 @@
 		<% end %>
 	</ol>
 </section>
+
+<section>
+	<h3>Items to be Shipped:</h3>
+	<% @items_to_be_shipped.each do |item| %>
+		<p><%= item.name %> - Invoice: #<%= item.invoice_id %> - <%= item.invoice_date %></p>
+	<% end %>
+</section>
